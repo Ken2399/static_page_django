@@ -35,7 +35,7 @@ SECRET_KEY = 'j3i@**g+37yx@1pbo*s2x$5%6lgv)lr2u$6(2(dpyy=7)7vjy)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['kens-static-page-django.herokuapp.com']
+ALLOWED_HOSTS = ['kens-static-page-django.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
