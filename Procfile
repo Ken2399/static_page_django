@@ -1,1 +1,1 @@
-web: gunicorn my_django_project:app
+web: gunicorn my_django_project:my_django_project
