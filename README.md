@@ -1,1 +1,1 @@
-Static webpage built with Django and deployed on Heroku.
+Static webpage built with Django and deployed on Heroku at https://kens-static-page-django.herokuapp.com/.
