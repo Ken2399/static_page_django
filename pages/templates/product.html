@@ -1,5 +1,5 @@
 <!-- pages/templates/home.html -->
-
+{% load static %}
 <!DOCTYPE html>
 <html>
     <head>
@@ -9,22 +9,22 @@
     <body>
         <div class="main">
             <div class="logo">
-                <img src="images/skyspace_logo.png">
+                <img src="{% static 'skyspace_logo.png' %}" alt="Logo">
             </div>
             <div class="menu">
-                <img src="images/menu.png">
+                <img src="{% static 'menu.png' %}" alt="Menu">
             </div>
             <div class="magnifier">
-                <img src="images/magnifier.png">
+                <img src="{% static 'magnifier.png' %}" alt="Magnifier">
             </div>
             <div class="shoes">
-                <img src="images/Nike_React_Miller.png">
+                <img src="{% static 'Nike_React_Miller.png' %}" alt="Shoes">
             </div>
             <div class="left_arrow">
-                <img src="images/left_arrow.png">
+                <img src="{% static 'left_arrow.png' %}" alt="Left Arrow">
             </div>
             <div class="right_arrow">
-                <img src="images/right_arrow.png">
+                <img src="{% static 'right_arrow.png' %}" alt="Left Arrow">
             </div>
             <div class="information">
                 <h1>Nike React Miller</h1>
