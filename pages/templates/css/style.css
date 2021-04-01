@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(../images/BlueSky_Background.png);
+    background-image: url(/static/BlueSky_Background.png);
     height: 120vh;
     background-size: cover;
     background-position: center;
